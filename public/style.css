@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  margin: 0;
+  padding: 0;
+}
+#login-container, #chat-container {
+  max-width: 400px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+}
+input, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+button {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #2563eb;
+}
+#room-list {
+  margin-bottom: 16px;
+}
+#room-list button {
+  width: auto;
+  margin: 4px 4px 4px 0;
+  padding: 8px 16px;
+  background: #e0e7ff;
+  color: #1e293b;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+}
+#room-list button:hover {
+  background: #a5b4fc;
+}
+#chat-room {
+  background: #f1f5f9;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+#messages {
+  height: 220px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 15px;
+}
+#logout-btn {
+  background: #f87171;
+  margin-top: 10px;
+}
+#logout-btn:hover {
+  background: #dc2626;
+}
+#login-msg {
+  color: #dc2626;
+  margin-top: 8px;
+  min-height: 20px;
+}

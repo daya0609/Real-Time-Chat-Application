@@ -72,6 +72,3 @@ chat/
   package.json
   .env (not committed)
 ```
-
-## License
-MIT
